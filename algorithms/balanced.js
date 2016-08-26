@@ -5,7 +5,7 @@ var isBalanced = function(string){
 var open = '([{'
 var closed = ')]}'
 var stack = []
-if (string.length % 2 !== 0){return false}
+//if (string.length % 2 !== 0){return false}
 for (var i = 0; i < string.length; i++){
     if (string[i] === open[0] || string[i] === open[1]  || string[i] === open[2]){
  stack.push(string[i])
